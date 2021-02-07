@@ -37,5 +37,24 @@ public class CounterTest {
         extremeTemp++;
         System.out.println("Temp: " + temp + ", ExtremeTemp: " + extremeTemp);
         
+        
+        Counter obj1 = new Counter(10);
+        Counter obj2 = obj1;
+        
+        if (obj1 == obj2) {
+           System.out.println("There Two objects refer to the same identical object");
+        }
+        
+        Counter obj3 = new Counter(10);
+        
+        if (obj1 == obj3) {
+            System.out.println("obj1  & obj3 referer to the same identical object");
+        } else {
+           System.out.println("obj1  & obj3 DO NOT referer to the same identical object");
+        }
+        
+        if (obj1.equals(obj3)) {
+           System.out.println("obj1  EQUALS obj3 EQUIVALENT INSTANCES");
+        }
     }
 }
