@@ -9,7 +9,7 @@ package com.datastructures.chapt02;
  *
  * @author abubizibu
  */
-public class ArithmeticProgression extends Progression {
+public class ArithmeticProgression extends AbstractProgression {
     
     protected long increment;
     

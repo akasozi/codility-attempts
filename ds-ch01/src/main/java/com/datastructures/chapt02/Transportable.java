@@ -9,7 +9,7 @@ package com.datastructures.chapt02;
  *
  * @author abubizibu
  */
-public interface Transportable {
+public interface Transportable extends Sellable {
     
     public int weight();
 }
